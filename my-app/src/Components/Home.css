@@ -1,0 +1,89 @@
+.main{
+    background-color:rgb(228, 243, 246);
+    height:auto;
+}
+.home{
+    
+    display: flex;
+    justify-content:space-between;
+}
+.homtxt{
+margin-left:40px;
+padding-top:20px;
+
+}
+.healthtxt{
+    font-size:25px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.6px;
+    margin-bottom:15px;
+    font-weight: bold;
+}
+.healthtxt1{
+    color: black;
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+    margin-bottom:10px;
+    font-weight: bold;
+    width:500px;
+}
+.healthtxt2{
+    color: black;
+    font-size:20px;
+    font-family: 'Rubik', sans-serif;
+    width: 500px;
+    letter-spacing:0.6px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bookbtn{
+    background-color:blue;
+    color: white;
+    border-radius: 25px;
+    border:1px solid transparent;
+    padding:10px 15px;
+    font-weight:18px;
+    font-family:'Rubik', sans-serif;
+    cursor: pointer;
+}
+.bookicn{
+    display:inline;
+    font-size:20px;
+    color:white;
+    cursor: pointer;
+    gap:10px;
+    padding-top:1px;
+}
+.img{
+     width:700px; 
+    background-color:rgb(228, 243, 246);
+    height: 606px;
+}
+.rvtxt{
+    display: flex;
+    justify-content:flex-start;
+    gap: 25px;
+    margin-left:20px;
+    margin-top: 40px;
+}
+.txt-cont{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.txt-cont .txt1{
+    color:  rgb(103, 103, 237);
+    font-size:35px;
+    font-weight: bold;
+}
+.txt-cont .txt2{
+    color:black;
+    font-size:22px;
+    font-family:'Poppins',sans-serif;
+    letter-spacing: 0.6px;
+}

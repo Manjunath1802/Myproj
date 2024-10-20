@@ -1,0 +1,83 @@
+.dctrmain{
+  background-color: rgb(246, 246, 246);
+  padding:32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dctrt1{
+    font-size:30px;
+    letter-spacing: 0.6px;
+    color: black;
+    font-weight:bold;
+    font-family:'Rubik', sans-serif;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.dctrt1 span::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    left:550px;
+    bottom:-8px;
+   
+  }
+.dctrpr{
+    font-size: 20px;
+    letter-spacing:0.6px;
+    color: rgb(51, 45, 45);
+    font-family:'Poppins', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.dctpht{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 10px;
+    background-color: aliceblue;
+    padding-top:15px;
+
+}
+.dcti{
+   background-color:rgb(191, 191, 227);
+   height:400px;
+   width:400px;
+   border:2px solid transparent;
+   border-radius: 30px;
+   text-align: center;
+   justify-content: center;
+}
+.dim1{
+    margin-left:60px;
+    height:250px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.dctl1{
+    font-size:25px;
+    letter-spacing: 0.6px;
+    color: black;
+    font-weight:bold;
+    font-family:'Rubik', sans-serif;
+}
+.dctl2{
+    font-size:20px;
+    letter-spacing: 0.6px;
+    color: rgb(44, 38, 38);
+    font-weight:bold;
+    font-family:'Rubik', sans-serif;
+}
+.dctl3{
+    font-size:20px;
+    letter-spacing: 0.6px;
+    color: black;
+    font-weight:bold;
+    font-family:'Rubik', sans-serif;
+}

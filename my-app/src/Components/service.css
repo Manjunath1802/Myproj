@@ -1,0 +1,81 @@
+.txtinfo{
+  padding: 0 32px;
+  text-align: center;
+  background-color: white;
+}
+.txt{
+    margin: 64px 0 128px 0; 
+}
+.txt-ttle{
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+}
+.txt-ttle > span {
+    position: relative;
+}
+.txt-ttle >span::before{
+    content: '';
+    position: absolute;
+    justify-content:center;
+    width:200px;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius:8px;
+    left: auto;
+    bottom: -10px;
+  }
+.txtpara{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family:'Rubik', sans-serif;
+    letter-spacing: 0.6px;
+    margin:30px;
+}
+
+.cardsection{
+    display:grid;
+    margin:64px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.cardsec{
+    background-color:white;
+    border: 2px solid #d7d3d3;
+    border-radius:30px;
+    height: auto;
+    padding: 20px 20px;
+    position:relative;
+}
+.cardicn{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    top:-22px; 
+    font-size:22px;
+    font-weight: bold;
+    padding:10px;
+}
+.cardttle{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:0.6px;
+    margin-bottom:10px;
+    font-weight:bold;
+    align-items: center;
+    color: black;
+}
+.carddesc{
+    font-size: 18px;
+    font-family:'Rubik', sans-serif;
+    letter-spacing: 0.7px;
+    color:rgb(70,75,72);
+    align-items: center;
+    margin:20px;
+}
+.icn{
+    font-size: 25px;
+    color:blue; 
+}

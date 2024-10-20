@@ -1,0 +1,68 @@
+.review-main{
+    background-color: rgb(152, 239, 239);
+    padding:32px;
+
+}
+.revttl{
+    font-size:30px;
+    font-family:'Rubik', sans-serif;
+    letter-spacing: 0.6px;
+    font-weight:bold;
+    margin:20px,0px;
+    color: rgb(35, 29, 29);
+    height:auto;
+}
+.revttl1{
+    font-size:35px;
+    font-family:'Rubik', sans-serif;
+    letter-spacing: 0.6px;
+    font-weight:bold;
+    color: black;
+}
+.revpar{
+    font-size:20px;
+    font-family:'Poppins', sans-serif;
+    color:rgb(37, 30, 30);
+    letter-spacing: 0.6px;
+    height:50px;
+    margin-top:20px;
+}
+.rvname{
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Rubik', sans-serif;
+    letter-spacing:0.6px;
+    color: black;
+}
+.rvc{
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Rubik', sans-serif;
+    color:rgb(38, 32, 32);
+   
+}
+.rvdwn{
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px;
+    margin-left:5px;
+}
+.rvb{
+    margin-top:25px;
+}
+span{
+    color:rgb(44, 44, 177);
+}
+
+.frwdbtn{
+    color:rgb(38, 31, 31);
+    padding-right:10px;
+    width:100px;
+    font-weight:bold;
+    font-size:30px;
+}
+.frwdbtn:hover{
+    color: brown;
+}
+
+
